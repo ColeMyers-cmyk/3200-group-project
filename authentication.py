@@ -175,8 +175,8 @@ def rsa_confidentiality_demo():
 
     confidential_message = input()
     if not confidential_message:
-        print("\nNo message entered. Exiting RSA demo.")
-        return
+        print("\nNo message entered. default message will be used.")
+        confidential_message = "Detecting multiple leviathan class lifeforms in the region. Are you certain whatever you're doing is worth it?"
     print("\nOriginal confidential message:")
     print(confidential_message)
 

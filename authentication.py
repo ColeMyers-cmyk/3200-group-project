@@ -174,7 +174,9 @@ def rsa_confidentiality_demo():
     print("please input your message to encrypt:")
 
     confidential_message = input()
-
+    if not confidential_message:
+        print("\nNo message entered. Exiting RSA demo.")
+        return
     print("\nOriginal confidential message:")
     print(confidential_message)
 

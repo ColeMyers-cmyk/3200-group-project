@@ -171,8 +171,9 @@ def login_secure_database():
 
 def rsa_confidentiality_demo():
     print("\n--- RSA Confidentiality Demo ---")
+    print("please input your message to encrypt:")
 
-    confidential_message = "Employee payroll record: Salary information is confidential."
+    confidential_message = input()
 
     print("\nOriginal confidential message:")
     print(confidential_message)
